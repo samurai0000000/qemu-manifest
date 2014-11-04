@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github" fetch="git://github.com/" />
+	<remote name="google" fetch="https://android.googlesource.com" />
+
+	<!-- viosoft -->
+	<project path="external/qemu" name="samurai0000000/qemu" remote="github" revision="qemu-viosoft-debug" />
+	<project path="qemu-debug" name="samurai0000000/qemu-debug" remote="github" revision="master">
+		<copyfile src="mk/copytop.mk" dest="Makefile" />
+	</project>
+
+	<!-- android source tree -->
+	<project path="build" name="platform/build" remote="google" revision="kitkat-release" />
+	<project path="sdk" name="platform/sdk" remote="google" revision="kitkat-release" />
+	<project path="prebuilts/tools" name="platform/prebuilts/tools" remote="google" revision="kitkat-release" />
+	<project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="google" revision="kitkat-release" />
+	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="google" revision="kitkat-release" />
+	<project path="external/gtest" name="platform/external/gtest" remote="google" revision="kitkat-release" />
+
+</manifest>
