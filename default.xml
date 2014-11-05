@@ -8,6 +8,7 @@
 	<project path="qemu-debug" name="samurai0000000/qemu-debug" remote="github" revision="master">
 		<copyfile src="mk/copytop.mk" dest="Makefile" />
 	</project>
+	<project path="kernel/goldfish" name="samurai0000000/linux" remote="github" revision="android-goldfish-3.4-qemu-debug" />
 
 	<!-- android source tree -->
 	<project path="build" name="platform/build" remote="google" revision="kitkat-release" />
@@ -16,6 +17,5 @@
 	<project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="google" revision="kitkat-release" />
 	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="google" revision="kitkat-release" />
 	<project path="external/gtest" name="platform/external/gtest" remote="google" revision="kitkat-release" />
-	<project path="kernel/goldfish" name="kernel/goldfish" remote="google" revision="android-goldfish-3.4" />
 
 </manifest>
