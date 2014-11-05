@@ -16,5 +16,6 @@
 	<project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" remote="google" revision="kitkat-release" />
 	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" remote="google" revision="kitkat-release" />
 	<project path="external/gtest" name="platform/external/gtest" remote="google" revision="kitkat-release" />
+	<project path="kernel/goldfish" name="kernel/goldfish" remote="google" revision="android-goldfish-3.4" />
 
 </manifest>
